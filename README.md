@@ -10,3 +10,7 @@ I made this app in one week a few years back when seeking my first Android job. 
 Feel free to use & I'm open to PRs for anyone that would like to improve the app.
 
 One of my goals was to use the app as an opportunity to learn proper migration from SQLiteOpenHelper to Room but I just never got there. There are many opportunities to improve the app for current Android best practices today.
+
+Connect with me or follow me on [LinkedIn](https://linkedin.com/in/renedeanda/) & [Twitter](https://twitter.com/redeio) for more.
+
+See my Dev Resume on [Vina.Dev](https://vina.dev/rene).
