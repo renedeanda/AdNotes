@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="dividerColor" format="reference" />
+    <attr name="dividerColor1" format="reference" />
+    <attr name="toolBarStyle" format="reference" />
+    <attr name="colorToolbar" format="reference" />
+    <attr name="fabIconTint" format="reference" />
+    <attr name="fabColorNormal" format="reference" />
+    <attr name="fabColorPressed" format="reference" />
+    <attr name="textColorAdNote" format="reference" />
+    <attr name="emptyTextColor" format="reference"/>
+    <attr name="textColorBlue" format="reference"/>
+
+</resources>

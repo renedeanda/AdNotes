@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainCardRelativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ripple"
+    tools:ignore="ContentDescription">
+
+    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="7dp"
+        card_view:cardBackgroundColor="?attr/cardBackgroundColor"
+        card_view:cardCornerRadius="6dp"
+        card_view:cardElevation="3dp">
+
+        <RelativeLayout
+            android:id="@+id/adLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:id="@+id/urlLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="3dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/adLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="2.5dp"
+                    android:paddingTop=".5dp"
+                    android:paddingRight="2.5dp"
+                    android:paddingBottom=".5dp"
+                    android:text="@string/ad"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/dot"
+                    android:textColor="?attr/textColorAdNote"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/urlText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/url_filler_text"
+                    android:textColor="?attr/textColorAdNote"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/headlineText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/urlLayout"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="24dp"
+                android:maxLines="2"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:text="@string/headline_filler_text"
+                android:textColor="?attr/textColorBlue"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:id="@+id/moreButtonLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/moreButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:tint="@color/grey_600"
+                    android:src="@drawable/ic_more_horiz_grey600_24dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/descriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/headlineText"
+                android:paddingTop="10dp"
+                android:text="@string/description_filler_text"
+                android:textColor="?attr/textColorAdNote"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:id="@+id/buttonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/descriptionText"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:id="@+id/editButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="5dp"
+                    android:tint="@color/grey_600"
+                    android:src="@drawable/ic_edit_grey600_24dp" />
+
+                <ImageView
+                    android:id="@+id/shareButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/editButton"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="5dp"
+                    android:tint="@color/grey_600"
+                    android:src="@drawable/ic_share_grey600_24dp" />
+
+                <TextView
+                    android:id="@+id/dateLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:paddingBottom="5dp"
+                    android:text="@string/date_label_filler_text"
+                    android:textColor="@color/grey_600"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

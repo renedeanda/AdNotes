@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storageEntries">
+        <item>Internal</item>
+        <item>Public External</item>
+        <item>Private External</item>
+    </string-array>
+    <string-array name="storageValueEntries">
+        <item>INTERNAL</item>
+        <item>PUBLIC_EXTERNAL</item>
+        <item>PRIVATE_EXTERNAL</item>
+    </string-array>
+    <string-array name="fontColorEntries">
+        <item>White</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string-array name="fontColorValues">
+        <item>#ffffff</item>
+        <item>#000000</item>
+        <item>#ff0000</item>
+        <item>#00ff00</item>
+        <item>#0000ff</item>
+    </string-array>
+</resources>

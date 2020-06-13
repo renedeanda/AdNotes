@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+    <PreferenceCategory android:title="@string/display_options">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="theme_key"
+            android:title="@string/enable_dark_theme" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Support">
+
+        <Preference
+            android:key="invite_friends"
+            android:summary="@string/share_adnotes"
+            android:title="@string/invite_friends" />
+
+        <Preference
+            android:key="rating_link"
+            android:title="@string/rate_adnotes"
+            android:summary="@string/love_the_app_rate_it"/>
+
+        <Preference
+            android:key="feedback_link"
+            android:title="@string/feedback"
+            android:summary="@string/have_an_idea_or_problem"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Other app(s)">
+
+        <Preference
+            android:key="delightful_link"
+            android:title="@string/delightful"
+            android:summary="@string/gratitude_journal_daily_quotes"/>
+
+        <Preference
+            android:key="dev_link"
+            android:title="@string/developer_name" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">AdNotes</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_adnotes">No ads, make one</string>
+    <string name="description_filler_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at magna nullam.</string>
+    <string name="url_filler_text">www.example.com</string>
+    <string name="headline_filler_text">Cras mi mollis tincidunt ante | Vitae, volutpat cras amet</string>
+
+    <string name="new_ad">New Ad</string>
+    <string name="save_entry">SAVE</string>
+    <string name="export_csv_text">Export to CSV</string>
+    <string name="settings">Settings</string>
+    <string name="cancel_ad_dialog_text">Do you want to cancel this ad?</string>
+    <string name="cancel_dialog_title">Cancel ad</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="initial_char_count_0">0</string>
+    <string name="max_char_count_25">25</string>
+    <string name="max_char_count_80">80</string>
+    <string name="max_char_count_90">90</string>
+    <string name="max_char_count_15">15</string>
+    <string name="max_char_count_30">30</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="date">Date</string>
+    <string name="share">Share</string>
+    <string name="edit">Edit</string>
+    <string name="confirm_export">Confirm Export</string>
+    <string name="export">Export</string>
+    <string name="create_csv_file_confirm_message">Create CSV file to export ALL your ads?</string>
+    <string name="failed_to_save_file">Failed to save file</string>
+
+    <string name="date_label_filler_text">Last updated: Feb 29th, 2016</string>
+
+    <string name="pref_dark_theme">pref_dark_theme</string>
+    <string name="pref_dark_theme_title">Theme</string>
+    <string name="delete_entry_text">Delete</string>
+    <string name="delete_entry_dialog_title">Delete ad</string>
+    <string name="delete_entry_dialog_message">Are you sure you want to delete these ads?</string>
+    <string name="delete_entry_dialog_delete_button_text">Delete</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="developer_name">Developed &amp; designed by René</string>
+    <string name="email_label">Give Feedback</string>
+    <string name="pref_csv_export_key">csv_export_key</string>
+    <string name="confirm_backup_dialog_confirm_button">Confirm</string>
+    <string name="pref_csv_export_data_title">Export to Device</string>
+    <string name="pref_csv_export_data_summary">Creates CSV file on device with all entries</string>
+    <string name="pref_category_backup_title">Backup</string>
+    <string name="pref_category_general_title">General</string>
+
+    <string name="headline_1_hint">Headline 1</string>
+    <string name="headline_2_hint">Headline 2</string>
+    <string name="headline_3_hint">Headline 3</string>
+    <string name="description_1_hint">Description 1</string>
+    <string name="description_2_hint">Description 2</string>
+    <string name="main_url_hint">URL www.example.com</string>
+    <string name="path_1_hint">Path 1</string>
+    <string name="path_2_hint">Path 2</string>
+
+    <string name="extra_create_section">Additional details</string>
+    <string name="campaign_hint">Campaign</string>
+    <string name="adgroup_hint">Ad group</string>
+    <string name="extra_notes_hint">Keywords, notes, thoughts..</string>
+
+    <string name="reminder_notification_text">Reminder</string>
+    <string name="no_entries_button_text">Create your first ad!</string>
+    <string name="plus_sign_image">plus sign image</string>
+    <string name="rate_title">Rate this app</string>
+    <string name="rate_message">If you enjoy using AdNotes, would you mind taking a moment to rate it? - Rene</string>
+    <string name="delete">Delete</string>
+    <string name="details">Details</string>
+    <string name="additional_details">Additional details</string>
+    <string name="feedback">Feedback</string>
+    <string name="export_ads">Export Ads</string>
+    <string name="edit_ad">Edit Ad</string>
+    <string name="create_ad">Create Ad</string>
+    <string name="slider_intro_title_one">Welcome to AdNotes</string>
+    <string name="slider_intro_title_two">Share &amp; Implement</string>
+    <string name="slider_intro_title_three">All set.</string>
+    <string name="slider_intro_desc_one">Create &amp; visualize ad ideas right on your phone</string>
+    <string name="slider_intro_desc_two">Export your ad ideas to CSV to put them into action</string>
+    <string name="slider_intro_desc_three">Get started</string>
+    <string name="ad_created">ad created</string>
+    <string name="ads_created">ads created</string>
+    <string name="importing">Importing…</string>
+    <string name="exporting">Exporting…</string>
+    <string name="saving_file">Saving file…</string>
+    <string name="backup_completed">Backup completed</string>
+    <string name="ad_details">Ad Details</string>
+    <string name="none">none</string>
+    <string name="delete_adnote">Delete Ad</string>
+    <string name="are_you_sure_delete_ad">Are you sure to delete this ad?</string>
+    <string name="ad">Ad</string>
+    <string name="dot">•</string>
+
+    <string name="enable_dark_theme">Enable Dark Theme</string>
+    <string name="display_options">Display Options</string>
+    <string name="share_adnotes">Share the app w/ other marketers</string>
+    <string name="invite_friends">Invite friends</string>
+    <string name="connect">Connect</string>
+    <string name="rate_adnotes">Rate AdNotes</string>
+    <string name="love_the_app_rate_it">Love the app? Rate it in the Play Store</string>
+    <string name="have_an_idea_or_problem">Have an idea or problem?</string>
+    <string name="delightful" translatable="false">Delightful</string>
+    <string name="gratitude_journal_daily_quotes">Gratitude journal, daily quotes</string>
+    <string name="announcements">Announcements</string>
+    <string name="invite_via">Invite via</string>
+    <string name="check_out_adnotes">Check out AdNotes</string>
+    <string name="make_export_text_ads_with_adnotes">Make/export text ads with AdNotes</string>
+    <string name="no_browser_app_installed">No browser app installed</string>
+    <string name="share_via">Share via</string>
+    <string name="check_out_this_ad">Check out this ad made with AdNotes</string>
+
+    <string name="rta_dialog_title">Rate this app</string>
+    <string name="rta_dialog_message">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="rta_dialog_ok">Rate now</string>
+    <string name="rta_dialog_cancel">Later</string>
+    <string name="rta_dialog_no">No, thanks</string>
+
+</resources>
