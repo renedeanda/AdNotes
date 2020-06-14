@@ -1,6 +1,8 @@
 # AdNotes
 AdNotes Android App in Kotlin
 
+<img src="https://lh3.googleusercontent.com/uwL0E1yFB63HHVBdMjfiYZj58ql3REc9NY-j-9IJdNn6I-Pw65qTONlKV_qwnDvaew=w2880-h1452-rw" width="20%"><img src="https://lh3.googleusercontent.com/bTzeLXoUfvzylXtiMoWbOajlI3dooIe1GZePa6Vbu6lo1Q0hoe62DxrjpmgCBOgg0w=w2880-h1452-rw" width="20%"><img src="https://lh3.googleusercontent.com/B-IB4qVXA9cgF06_TmsNi-sfbZiSFO9Fi-7tagUdg12epr0h5tbejwPhuzfyll1VZ14=w2880-h1452-rw" width="20%">
+
 AdNotes is a digital marketing app to create text ads from your mobile phone in the form of expanded text ads. Includes CSV export & dark/light themes.
 
 You can download the app on the [Google Play Store](https://play.google.com/store/apps/details?id=com.dcrtns.adnotebook).
