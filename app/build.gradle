@@ -13,7 +13,6 @@ apply plugin: 'com.google.firebase.crashlytics'
 
 repositories {
     mavenCentral()
-    jcenter()
     google()
 }
 
@@ -26,8 +25,8 @@ android {
         applicationId "com.dcrtns.adnotebook"
         minSdkVersion 28
         targetSdkVersion 33
-        versionCode 10
-        versionName "1.2.1"
+        versionCode 11
+        versionName "1.2.2"
         multiDexEnabled true
     }
     buildTypes {
